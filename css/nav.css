@@ -1,0 +1,49 @@
+/* #thongtin{
+    background-color:#198754;
+    height: 3vh;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: 48px;
+    font-weight: bold;
+    color: #198754;
+    letter-spacing: 10px;
+}
+.logo:hover{
+    color: #146d44;
+}
+#nav .navbar a{
+    color: black;
+}
+#nav .navbar a:hover{
+    color: #198754;
+    text-decoration: underline;
+}
+.collapse ul li #active_one{
+    color: #198754;
+}
+.collapse ul li .active_one{
+    color: #198754;
+}
+.fixed{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+/* end nav */
+
+.back_to_top{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    display: none;
+}
+.back_to_top i{
+    color: red;
+    font-size: 46px;
+    transition:all 1s ease-in-out;
+}
